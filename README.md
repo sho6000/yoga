@@ -19,6 +19,6 @@ Overall, "Yogga" is a modern and comprehensive website designed to cater to indi
 - JS
 
 ## Screenshots
-![Home page](https://github.com/sho6000/yoga/screenshots/1.png)
-![Screenshot (450)](https://github.com/sho6000/yoga/screenshots/2.png)
+![Screenshot](https://github.com/sho6000/yoga/blob/main/screenshots/1.png)
+![Screenshot (450)](https://github.com/sho6000/yoga/blob/main/screenshots/2.png)
 
