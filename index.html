@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>yogga</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="htpps;//unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+
+            <a href="#" class="logo">Yogga</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Classes</a></li>
+                <li><a href="#services">Instructor</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Yoga For All</h1>
+                <h2>Discover Harmony Within<br> Embrace Yoga's Path</h2>
+                <a href="#" class="btn">View Classes</a>
+            </div>
+            <div class="home-img">
+                <img src="img/home.png" >
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/about.png" >
+            </div>
+            <div class="about-text">
+                <span>Know Us</span>
+                
+              <p><b>"We strive to create a welcoming and inclusive space"</b><br><br>Through mindful movement, breath awareness, and guided meditation, our experienced instructors will help you find balance and cultivate a deeper connection between mind, body, and soul. Whether you seek stress relief, improved flexibility, strength, or a serene escape from daily life, our yoga classes provide a sanctuary for self-care and personal growth.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+        <div class="heading">
+          <span><h1>Classes Offered</h1></span>
+                <h3>"Enjoy the wide variety of courses to start your health and fitness journey to better future"</h3>
+        </div>
+        <div class="menu-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/yoga1.png">
+                </div>
+                <h2>Yoga for beginners</h2>
+                <h3>Enjoy the starter pack for all<br>yoga enthusiastic learners.</h3>
+                <span><b>FREE</b></span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/yoga2.png">
+                </div>
+                <h2>Yoga for Intermediate</h2>
+                <h3>Enjoy yoga lessons for learners<br>after beginner course.</h3>
+                <span>400/-</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/yoga3.png">
+                </div>
+                <h2>Yoga for Professional</h2>
+                <h3>Enjoy the full yoga training<br>for complete yoga training.</h3>
+                <span>350/-</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <div class="heading">
+          <span><h1>Instructors</h1></span>
+                <h3>Passionate, skilled, and dedicated instructors guiding you on your<br>yoga journey to discover inner peace and achieve holistic well-being.</h3>
+        </div>
+        <div class="service-container">
+            <div class="s-box">
+                <img src="img/s1.png">
+                <h3>Angeleena Gus</h3>
+                <p>Senior Instructor</p>
+                
+            </div>
+            <div class="s-box">
+                <img src="img/s2.png">
+                <h3>Markus Styphen</h3>
+                <p>Senior Instructor</p>
+                
+            </div>
+            <div class="s-box">
+                <img src="img/s3.png">
+                <h3>Robbie Margret</h3>
+                <p>Junior Instructor</p>
+                
+            </div>
+        </div>
+
+    </section>    
+    <!-------call to action----->
+
+    </script>
+    <section class="cta">
+    <h2>Stay Connected with Yogga / Everyday<br>Chat with our Bot</h2>
+    <button class="btn" id="chatBtn">Let's Chat</button> <!-- Converted the text into a button using the "btn" class -->
+</section>
+
+<!-- Add the chat bot container -->
+<div id="chatBotContainer" class="webchat-container">
+    <iframe src='https://webchat.botframework.com/embed/project23-bot?s=qI3fqqhgafY.Y1kYtfJgXjPMgJbpFgPHSOXHnCPOOx-NjgvyxdvUn6s' frameborder="0" width="100%" height="100%"></iframe>
+</div>
+
+ <!-- Your existing JavaScript code -->
+
+<script>
+    // Function to toggle the chat bot container visibility
+    function toggleChatBotContainer() {
+        var chatBotContainer = document.getElementById("chatBotContainer");
+        chatBotContainer.style.display = chatBotContainer.style.display === "none" ? "block" : "none";
+    }
+
+    // Add event listener to the "Let's Chat" button to toggle the chat bot container
+    var chatBtn = document.getElementById("chatBtn");
+    chatBtn.addEventListener("click", toggleChatBotContainer);
+</script>
+
+    <!-------footer start------>
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                
+                
+                <div class="col">
+                    <h4>            Our Location's                                 </h4>
+                        <ul>
+                            
+                            
+                            <li><a >           Narayanapura</a></li>
+                            <li><a >           Manipur</a></li>
+                        </ul>
+                </div>
+                <div class="col">
+                    <h4>                 Contact Us</h4>
+                    <div class="social">
+                        <ul>
+                        <li><a>               What's App: xxxxxxxxx</a></li>
+                        <li><a >              Address: kkkkkkkkkkkk</a></li>
+                        
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
